@@ -90,6 +90,7 @@ function createRock(x) {
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM
      */
+    if (rock.style.top == 400) { GAME.removeChild(rock); }
   }
 
   // We should kick off the animation of the rock around here
